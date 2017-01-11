@@ -9,12 +9,12 @@ window.addEventListener('load', function wListener() {
   var button = document.querySelector('button');
   var input = document.querySelector('input');
   button.addEventListener('click',function (){
-    var l = input.value;
-    var el = document.createElement('li');
-    el.innerText = l;
-    list.appendChild(el);
+    var inputedValue = input.value;
+    var newElement = document.createElement('li');
+    newElement.innerText = inputedValue;
+    list.appendChild(newElement);
     input.value = '';
-    state.items.push(l);
+    state.items.push(inputedValue);
 
   })
 });
