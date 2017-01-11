@@ -15,6 +15,6 @@ window.addEventListener('load', function wListener() {
     list.appendChild(el);
     input.value = '';
     state.items.push(l);
-
+//test
   })
 });
